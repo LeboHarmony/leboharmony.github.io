@@ -9,7 +9,6 @@ html {
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
-    /* background-color: rgb(207, 226, 232, 0.21); */
     background-color: rgb(199, 209, 209);
 }
 a {
@@ -32,7 +31,7 @@ p {
     font-size: 1.6rem;
     margin-bottom: 5px;
     line-height: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.05rem;
 }
 .section-title {
@@ -246,18 +245,24 @@ p {
     position: relative;
     overflow: hidden;
     border-radius: 70%;
+    margin-bottom: 20px;
 }
 #skills .bullets ul {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.15rem;
+    font-weight: 500;
     margin-bottom: 20px;
+}
+#skills .icon {
+    width: 80px;
+    margin: 10px auto;
 }
 #skills .bullets p {
     text-align: center;
     font-size: 2rem;
     letter-spacing: 0.2rem;
     margin-bottom: 10px;
-    font-weight: 500;
     margin-bottom: 20px;
 }
 /* End Skills Section */
